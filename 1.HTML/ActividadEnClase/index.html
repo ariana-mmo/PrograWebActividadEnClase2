@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Universidad de Lima</title>
+</head>
+<body>  
+    <header>
+        <h1>Universidad de Lima</h1>
+        <figure>
+            <img src = "imagen1.jpg" alt = "logo" witdh = "420" height="420" />
+            <figcaption>Logo de la Universidad de Lima</figcaption>
+        </figure>
+        <br /><br />
+    </header>
+    <main>
+    <p>La Universidad de Lima es una institución educativa privada que se fundó en 1990. Es reconocida por su excelencia académica y su compromiso con la investigación y el desarrollo social.</p>
+    <!-- <ul>     -->
+  
+    <br /><br />
+    <h2>Barra de Navegación</h2>
+    <nav>
+        <ul>
+            <li><a href="index.html">Inicio</a></li>
+            <li><a href="carreras.html">Carreras</a></li>
+            <li><a href="contacto.html">Contacto</a></li>
+        </ul>
+    </nav>
+    
+    <br /><br />
+    <h2>Resumen de las Carreras</h2>
+    <table border = "1">
+        <thead>
+            <tr>
+                <th>Facultad</th>
+                <th>Carrera Destcada</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>Ingeniería</td>
+                <td>Ingeniería Industrial</td>
+            </tr>
+            <tr>
+                <td>Negocios</td>
+                <td>Administración de Empresas</td>
+            </tr>
+            <tr>
+                <td>Comunicación</td>
+                <td>Comunicación</td>
+            </tr>
+            <tr>
+                <td>Arquitectura</td>
+                <td>Arquitectura</td>
+            </tr>
+        </tbody>
+    </table>
+    <br /><br />
+
+    <h2>Ejemplo de Horarios</h2>
+    <table border = "1">
+        <thead>
+            <tr>
+                <th>Hora</th>
+                <th>Lunes</th>
+                <th>Martes</th>
+                <th>Miércoles</th>
+                <th>Jueves</th>
+                <th>Viernes</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>8:00 - 10:00</td>
+                <td>Matemática Básica</td>
+                <td>Lengua1</td>
+                <td>Matemática Básica</td>
+                <td>Globalización</td>
+                <td>Ética</td>
+            </tr>
+            <tr>
+                <td>10:00 - 12:00</td>
+                <td>Globalización</td>
+                <td>Lengua1</td>
+                <td>Ética</td>
+                <td>Desarrollo</td>
+                <td>Asesorías</td>
+            </tr>
+        </tbody>
+    </table>
+    <br /><br />
+
+    <h1>Formulario de Registro</h1>
+    <form>
+        <label for="codigo">DNI:</label>
+        <input type="text" name="codigo" id="codigo" required/>
+        <br/>
+        <label for="nombres">Nombres:</label>
+        <input type="text" name="nombres" id="nombres" required/>
+        <br/>
+        <label for="correo">Correo Electronico:</label>
+        <input type="text" name="correo" id="correo" required/>
+        <br/>
+
+        Género
+        <label for="g_masculino">Masculino:</label>
+        <input type="radio" id="g_masculino" name="gen" value="M" />
+        <label for="g_femenino">Femenino:</label>
+        <input type="radio" id="g_femenino" name="gen" value="F" />
+        <label for="g_otro">Otro:</label>
+        <input type="radio" id="g_otro" name="gen" value="O" />
+        <br/>
+
+        Carreras:
+        <br/>
+        <label for="intereses1">Ingenería</label>
+        <input type="checkbox" name="intereses1" id="intereses1" value="IN"/>
+        <label for="intereses2">Comunicación</label>
+        <input type="checkbox" name="intereses1" id="intereses1" value="COM"/>
+        <label for="intereses3">Negocios</label>
+        <input type="checkbox" name="intereses3" id="intereses3" value="NE"/>
+        <label for="intereses4">Arquitectura</label>
+        <input type="checkbox" name="intereses4" id="intereses4" value="AR"/>
+        <br/>
+        <input type="submit"/>
+
+        Semestre de Inicio:
+        <select id="inicio" name="inicio">
+            <option>2026-1</option>
+            <option>2026-2</option>
+        </select>
+        <br />
+    </form>
+    </main>
+
+    <br /><br />
+
+    <footer>Esto es un Footer: © 2024 Universidad de Lima. Todos los derechos reservados. Ariana Montoya.</footer>
+<body>
